@@ -7,8 +7,11 @@ Naming is taste, not thesaurus. This skill encodes a repeatable process: extract
 ## Install
 
 ```bash
-# shared skills dir (pi, and any agent reading ~/.agents/skills)
-cp -R callsign ~/.agents/skills/
+# pi (recommended)
+pi install npm:callsign
+
+# or shared skills dir (pi, and any agent reading ~/.agents/skills)
+cp -R skills/callsign ~/.agents/skills/
 ```
 
 ## Usage

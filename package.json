@@ -1,0 +1,17 @@
+{
+  "name": "callsign",
+  "version": "1.0.0",
+  "description": "Agent skill for human-aesthetic naming of repos, products, tools and features",
+  "keywords": [
+    "pi-package",
+    "agent-skill",
+    "naming",
+    "claude-code"
+  ],
+  "license": "MIT",
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
